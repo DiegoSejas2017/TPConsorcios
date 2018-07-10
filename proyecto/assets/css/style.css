@@ -1,0 +1,137 @@
+
+/*For Home Section*/
+.home{
+    background:url(../images/homebg.jpg) no-repeat center center;
+    color:#000;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+}
+.home-wrapper{
+    padding:180px 0px;
+    overflow:hidden;
+}
+.home-content h1{
+    font-size:48px;
+    font-weight:700;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.home-content p{
+    margin-bottom: 30px;
+    color: #fff;
+}
+.home-content .home-contact{
+    margin-top: 90px;
+}
+
+.home-contact .input-group{display: block;}
+.home-content .input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 65%;
+    margin-bottom: 0;
+    height: 60px;
+
+}
+.home-content .home-contact input[type="text"]{
+    color:#82ca9c;
+}
+.home-content .home-contact input[type="submit"]{
+    display:inline-block;
+    width:35%;
+    background:#82ca9c;
+    color:#fff;
+	border: 0px;
+}
+.home-content .home-contact input[type="submit"]:hover{
+	background-color: rgba(0, 173, 62, 0.75);
+}
+.home-contact p{
+    margin-top: 20px;
+    color:#000;
+    font-size:15px;
+}
+.form-control {
+    border: 1px solid #DEDEDE;
+    height:45px;
+    border-radius: 0px;
+    margin-right: -3px;
+}
+.head_title {
+    margin-bottom: 40px;
+}
+.head_title p {
+    max-width: 55%;
+    margin: 10px auto;
+    padding-bottom: 20px;
+}
+
+/* features  section */
+
+.single_features_left img{
+    height:460px;
+}
+.single_features_right {
+    margin-top:10%;
+}
+
+.single_features_right h2 {
+	margin-bottom: 40px;
+    font-size:40px;
+    color:#222222;
+}
+
+.single_features_right p{
+    font-size:18px;
+}
+.single_features_right ul li{
+    font-size:18px;
+    margin-top:3%;
+}
+
+/* Service2 Section */
+.service2{}
+.service_content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.single_service2{
+    margin-top: 90px;
+}
+.single_service_left{
+    display: inline-block;
+}
+.single_service2 img{
+    width: 70px;
+    margin-top: -70px;
+
+}
+
+.single_service2 .single_service_right{
+    display: inline-block;
+    width: 70%;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.single_service_right h2{
+
+    font-size:24px;
+    text-transform:uppercase;
+    color:#222222;
+    margin: 0;
+}
+.single_service_right p{
+    font-size:18px;
+    color:#777777;
+}
+
+
+
+
+
+
